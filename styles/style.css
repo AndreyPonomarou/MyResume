@@ -202,8 +202,8 @@ img{
     margin-top: 10px;
     font-size: 15px;
 }
-.google-icon:hover{
-    color: red;
+.github-icon:hover{
+    color: #5d1e85;
 }
 .telegram-icon:hover{
     color:#0088cc;
