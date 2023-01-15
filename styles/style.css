@@ -8,6 +8,9 @@
     margin: 0 auto;
     font-family: 'Raleway', sans-serif;
 }
+body{
+    background-color: #e4f1f7;
+}
 header{
     background-color: #261a2b;
 }
@@ -67,9 +70,11 @@ a{
 }
 .anim.info__me.active:hover{
     transform: scale(1.03);
+    cursor: pointer;
 }
 .info__me h2{
     margin:20px;
+    color: #4dc9ff;
 }
 .info img{
     width: 84px;
@@ -77,8 +82,15 @@ a{
     margin: 0 auto;
 }
 .info__me__text{
-    padding: 10px;
+    padding: 20px;
     line-height:25px
+}
+.info__me__text p{
+    margin: 1%;
+}
+.info__me__text span{
+    color: #4dc9ff;
+    font-size: 24;
 }
 .about__info{
     display: flex;
@@ -89,7 +101,10 @@ a{
 }
 .anim.about__info.active:hover{
     cursor: pointer;
-    transform:scale(1.1)
+    transform:scale(1.03)
+}
+.about__info__content{
+    padding: 20px;
 }
 .about__photo{
     flex-basis: 50%;
@@ -113,7 +128,7 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
+    width: 60%;
     font-size: 20px;
 }
 .slider{
@@ -174,7 +189,7 @@ img{
 }
 .media{
     width: 100%;
-    min-height: 50vh;
+    min-height: 30vh;
     background-color: #261a2b;
     display: flex;
     flex-direction: column;
